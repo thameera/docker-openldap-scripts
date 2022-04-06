@@ -1,0 +1,16 @@
+dn: uid=will,dc=acme,dc=com
+changetype: add
+uid: will
+cn: will
+sn: smith
+mail: will@acme.com
+gecos: Will Smith
+homeDirectory: /home/will
+userPassword: f
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+loginShell: /bin/bash
+uidNumber: 14583102
+gidNumber: 14564100

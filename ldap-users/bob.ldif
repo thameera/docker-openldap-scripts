@@ -1,0 +1,16 @@
+dn: uid=bob,dc=acme,dc=com
+changetype: add
+uid: bob
+cn: bob
+sn: ross
+mail: bob@acme.com
+gecos: Bob Ross
+homeDirectory: /home/bob
+userPassword: f
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+loginShell: /bin/bash
+uidNumber: 14583102
+gidNumber: 14564100
